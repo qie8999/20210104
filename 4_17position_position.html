@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        .red {
+            background-color: red;
+            left: 10px;
+            top: 10px;
+            
+        }
+
+        .green {
+            background-color: green;
+            left: 50px;
+            top: 50px;
+            
+        }
+
+        .blue {
+            background-color: blue;
+            left: 90px;
+            top: 90px;
+            
+
+        }
+        body>div
+        {
+            width: 400px;
+            height: 100px;
+            border:2px solid black
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+<div>
+    <div class="box red"></div>
+    <!-- /*h1을 덮어쓰기해버림*/ -->
+    <div class="box green"></div>
+
+    <div class="box blue"></div>
+
+</div>
+<h1>性责么</h1>
+    <!-- /*부모태그가 static이 아니면 부모태그가 0.0좌표이다*/ -->
+
+</body>
+
+</html>
